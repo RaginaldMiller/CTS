@@ -1,0 +1,128 @@
+'android' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+'android' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+Buildfile: E:\Users\Administrator\workspace\TestCTS\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20140702\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for test.jar...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: E:\Users\Administrator\workspace\TestCTS\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to E:\Users\Administrator\workspace\TestCTS\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Users\Administrator\workspace\TestCTS\bin\classes
+      [dex] Converting compiled files and external libraries into E:\Users\Administrator\workspace\TestCTS\bin\classes.dex...
+       [dx] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Users\Administrator\workspace\TestCTS\bin\test.jar.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+'android' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+Buildfile: E:\Users\Administrator\workspace\TestCTS\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20140702\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for test.jar...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Users\Administrator\workspace\TestCTS\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Users\Administrator\workspace\TestCTS\bin\classes.dex...
+       [dx] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Users\Administrator\workspace\TestCTS\bin\test.jar.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Updated file E:\Users\Administrator\workspace\TestCTS\build.xml
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Buildfile: E:\Users\Administrator\workspace\TestCTS\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20140702\adt-bundle-windows-x86-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Users\Administrator\workspace\TestCTS\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Users\Administrator\workspace\TestCTS\bin\classes.dex...
+       [dx] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Users\Administrator\workspace\TestCTS\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
